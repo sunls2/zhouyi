@@ -1,0 +1,34 @@
+site_name: 周易 64 卦
+site_description: 周易-易经 64 卦详解
+
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+extra:
+  generator: false
+extra_css:
+  - assets/css/ui.css
+  - https://gw.alipayobjects.com/os/k/font/lxgwwenkaiscreenr.css
+theme:
+  name: material
+  language: zh
+  icon:
+    logo: material/yin-yang
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      toggle:
+        icon: material/brightness-4
