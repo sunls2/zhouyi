@@ -4,6 +4,8 @@ site_description: 周易-易经 64 卦详解
 plugins:
   - search:
       separator: '[\s\u200b\-]'
+  - minify:
+      minify_html: true
 extra:
   generator: false
 extra_css:
