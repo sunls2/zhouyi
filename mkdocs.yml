@@ -1,5 +1,8 @@
 site_name: 周易 64 卦
 site_description: 周易-易经 64 卦详解
+dev_addr: "127.0.0.1:8080"
+repo_url: https://github.com/sunls2/zhouyi/
+repo_name: sunls2/zhouyi
 
 plugins:
   - search:
