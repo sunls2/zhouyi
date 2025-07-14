@@ -4,6 +4,10 @@ dev_addr: "127.0.0.1:8080"
 repo_url: https://github.com/sunls2/zhouyi/
 repo_name: sunls2/zhouyi
 
+nav:
+  - 首页: /
+  - AI 占卜: https://divination.sunls.de
+
 plugins:
   - search:
       separator: '[\s\u200b\-]'
@@ -23,6 +27,7 @@ theme:
   features:
     - navigation.footer
     - navigation.indexes
+    - navigation.tabs
     - navigation.top
   palette:
     # Palette toggle for light mode
